@@ -2,9 +2,6 @@ import { upload } from "@testing-library/user-event/dist/upload";
 import React, { useEffect } from "react";
 
 export const ScoreCard = ({ value, className, score }) => {
-    useEffect(()=>{
-        console.log("score of " + value + " is update to " + score);
-    },[score]);
     return (
         <div className={className}>
 

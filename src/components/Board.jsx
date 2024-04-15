@@ -41,7 +41,6 @@ export const Board = () => {
         for (const winningState of winningStates) {
             const [a,b,c] = winningState;
             if(gameResult === undefined && square[a] !== undefined &&  square[a] === square[b] && square[b] === square[c]){
-                    console.log("Winner is "  + square[index] + "::: " + winningState);
                     setGameResult(`Game Over. Player ${square[index]} wins!`);
                     setState(square);
                     setXTurn(!isXTurn);
@@ -56,7 +55,6 @@ export const Board = () => {
             }
         });
         if(emptySquare === 0){
-            console.log("Game Tied");
             setGameResult("Draw");
             setScoreCard([scorecard[0],scorecard[1] + 1,scorecard[2]]);
         }
