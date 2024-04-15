@@ -1,0 +1,141 @@
+body{
+    height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5a1e76;
+}
+.board-container{
+    margin: 20px 30px;
+    width: 50vh;
+    
+}
+
+.board-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.scorecard-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.square{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: normal;
+    background-color: #3d1558;
+}
+
+.square:hover{
+    background-color: #805f95;
+}
+
+.square-border-right{
+    border-right: 2px solid white;
+}
+
+.square-border-left{
+    border-left: 2px solid white;
+}
+
+.square-border-top{
+    border-top: 2px solid white;
+}
+
+.square-border-bottom{
+    border-bottom: 2px solid white;
+}
+
+.square-top-left-rounded-border{
+    border-top-left-radius: 10px;
+}
+.square-top-right-rounded-border{
+    border-top-right-radius: 10px;
+}
+.square-bottom-left-rounded-border{
+    border-bottom-left-radius: 10px;
+}
+.square-bottom-right-rounded-border{
+    border-bottom-right-radius: 10px;
+}
+
+.score-card{
+    height:100px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.player-o-scorecard{
+    background-color: #dcbf3f;
+    margin-left: 10px;
+}
+.player-x-scorecard{
+    background-color: #49d2ff;
+    margin-right: 10px;
+}
+.draw-scorecard{
+    background-color: #bcdbf9;
+    /* margin: 0px 5px; */
+}
+
+.button{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.heading{
+    font-size: 40px;
+    color: black;
+    background-color: #f5f6f5;
+    width: 100%;
+}
+.result-ribbon{
+    color:white;
+    background-color: #397e39;
+}
+
+.reset-button{
+    color: black;
+    background-color: #f5f6f5;
+}
+
+.player-o{
+  color: #dcbf3f;   
+}
+.player-x{
+    color: #49d2ff;
+}
+.player-o-move-display{
+    margin-top: 30px;
+    color: black;
+    background-color: #dcbf3f;
+}
+.player-x-move-display{
+    margin-top: 30px;
+    color: black;
+    background-color: #49d2ff;
+}
+
+/* todo */
+.highlight-winning-square-position{
+    background-color: #805f95;
+}
