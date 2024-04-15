@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-tic-tac-toe/static/css/main.c41db6c3.css",
+    "main.js": "/react-tic-tac-toe/static/js/main.2c6fb40f.js",
+    "static/js/453.361cb0cc.chunk.js": "/react-tic-tac-toe/static/js/453.361cb0cc.chunk.js",
+    "static/media/tap-notification-180637.mp3": "/react-tic-tac-toe/static/media/tap-notification-180637.26371742bcb64f25256e.mp3",
+    "static/media/logo.svg": "/react-tic-tac-toe/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/undo-arrow-icon.svg": "/react-tic-tac-toe/static/media/undo-arrow-icon.07cbbd29005aa9734f4730b0ca608693.svg",
+    "index.html": "/react-tic-tac-toe/index.html",
+    "main.c41db6c3.css.map": "/react-tic-tac-toe/static/css/main.c41db6c3.css.map",
+    "main.2c6fb40f.js.map": "/react-tic-tac-toe/static/js/main.2c6fb40f.js.map",
+    "453.361cb0cc.chunk.js.map": "/react-tic-tac-toe/static/js/453.361cb0cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c41db6c3.css",
+    "static/js/main.2c6fb40f.js"
+  ]
+}
